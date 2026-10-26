@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Hakk&#x131;m&#x131;zda"/>
+    <Property name="alwaysOnTop" type="boolean" value="true"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AccessibilityProperties>
+    <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Yard&#x131;m"/>
+  </AccessibilityProperties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" pref="710" max="32767" attributes="0"/>
+                  <Component id="jButton1" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane2" min="-2" pref="434" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" pref="57" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="cc" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Comic Sans MS" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Kabartma yaz&#x131;n&#x131;n &#xf6;rnekler ile a&#xe7;&#x131;kland&#x131;&#x11f;&#x131; ve kurallar&#x131;n&#x131;n bulundu&#x11f;u kitap i&#xe7;in t&#x131;klay&#x131;n&#x131;z"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton1MouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Comic Sans MS" size="14" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#x130;stek &#xf6;neri ve g&#xf6;r&#xfc;&#x15f;leriniz i&#xe7;in;&#xa; &#xa;Levent VURAL ( lvural42@gmail.com)&#xa;Konya, Sel&#xe7;uklu Mediha Hasan Tahsin Alayl&#x131; G&#xf6;rme Engelliler Ortaokulu, T&#xfc;rk&#xe7;e &#xd6;&#x11f;retmeni&#xa;&#xa;Nusret BA&#x15e;&#xc7;&#x130;FC&#x130; ( nbascifci@gmail.com)&#xa;Konya, Sel&#xe7;uklu Mediha Hasan Tahsin Alayl&#x131; G&#xf6;rme Engelliler Ortaokulu, Bili&#x15f;im Teknolojileri &#xd6;&#x11f;retmeni&#xa;&#xa;Faruk EKER ( eker_faruk@yahoo.com)&#xa;Konya, Karatay &#xd6;zel E&#x11f;itim Meslek Okulu, &#xd6;zel E&#x11f;itim &#xd6;&#x11f;retmeni&#xa;&#xa;Herhangi bir text d&#xfc;zenleme program&#x131;ndan metinleri, kopyalay&#x131;p alabilece&#x11f;iniz gibi &#xa;.doc veya .docx uzant&#x131;l&#x131; dosyalar&#x131; da s&#xfc;r&#xfc;kleyip program i&#xe7;erisine b&#x131;rakarak aktarabilirsiniz.&#xa;&#xa;Program&#x131;n herhangi bir braille yaz&#x131;c&#x131; veya normal yaz&#x131;c&#x131; ile &#x15f;imdilik ba&#x11f;lant&#x131; deste&#x11f;i yoktur.&#xa;&#xa;Elde edilen braille yaz&#x131; word(ba&#x15f;ka programlarda olur) ortam&#x131;nda kabartma yaz&#x131; fontuna&#xa;&#xe7;evirdikten sonra normal yaz&#x131;c&#x131;lardan &#xe7;&#x131;kt&#x131; al&#x131;nabilir.&#xa;&#xa;Kabartma yaz&#x131;y&#x131; &#xf6;&#x11f;renmek ve &#xf6;&#x11f;retmek isteyenlere yard&#x131;mc&#x131; olmas&#x131; i&#xe7;in tasarlanm&#x131;&#x15f;t&#x131;r.&#xa;&#xa;Program&#x131;n ticari amac&#x131; yoktur.  &#xa;                                                                 5 MART 2020"/>
+            <Property name="autoscrolls" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
