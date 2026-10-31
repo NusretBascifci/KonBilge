@@ -18,6 +18,6 @@ Geliştiriciler için Konbilge klasörünü indirip Netbeans'a proje olarak File
 
 Bütün pardus sürümleri için çalışabilmesi için Oracle OpenJDK 17.0.2+8 seçilmiştir.
 
-Kendi oluşturduğumuz Kabartma.ttf fontu font klasöründedir.
+Kendi Kabartma.ttf fontu font klasöründedir.
 
 Harici kullanılan kütüphaneler dist-lib klasöründedir.
