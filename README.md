@@ -14,6 +14,8 @@ Okulların pardus kurulu akıllı tahtaları içinde uyumlu olan,
 
 Pardus için kurulum dosyası Konbilge.deb indirerek kurulumu gerçekleştirebilirsiniz.
 
+KonBilge.deb:https://github.com/70757d9f-59d2-479c-a296-f464a03f02fa
+
 Geliştiriciler için Konbilge klasörünü indirip Netbeans'a proje olarak File menüsü open project ile açmaları yeterli olacaktır.
 
 Bütün pardus sürümleri için çalışabilmesi için Oracle OpenJDK 17.0.2+8 seçilmiştir.
